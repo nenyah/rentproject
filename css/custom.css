@@ -1,0 +1,13 @@
+.ui.vertical.basic.segment.masthead {
+    /*width: 1440px;
+    height: 689px;*/
+    background-image: url("images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ui.inverted.text.menu {
+    width: 1440px;
+    height: 75px;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    /*background-color: var(--black-20);*/
+}
