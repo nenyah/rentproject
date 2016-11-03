@@ -42,14 +42,22 @@
     <!-- 搜索条 -->
     <div class="ui text menu search">
         <div class="ui category search item">
-            <div class="ui search selection dropdown">
-                <input class="prompt" name="university" type="hidden">
-                <i style="font-size: 45px; color: #d8d8d8; padding-right: 18px;"class="dropdown icon"></i>
+            <div class="ui simple dropdown item">
                 <div class="default text">
                     想去哪个学校附近租房？选择学校名字
                 </div>
+                <i style="font-size: 2em; color: #d8d8d8;" class="dropdown icon"></i>
+
                 <div class="menu">
-                    <div class="item">清华大学</div>
+                    <div class="item" data-value="1">
+                        清华大学
+                    </div>
+                    <div class="item" data-value="2">
+                        北京大学
+                    </div>
+                    <div class="item" data-value="3">
+                        人民大学
+                    </div>
                 </div>
             </div>
             <div class="ui button">

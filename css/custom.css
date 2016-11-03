@@ -63,17 +63,24 @@ body {
     transform: translate(-50%,0);
 }
 
-.ui.search.selection.dropdown {
+.ui.simple.dropdown.item {
     width: 458px;
     height: 63px;
     background-color: #ffffff;
     border: solid 1px #eaebeb;
     line-height: 43px;
+    padding-left: 1em;
+}
+.ui.simple.dropdown.item:hover {
+    opacity: 1;
+    background-color: #FFF;
 }
 
 .default.text {
     font-size: 20px;
     color: #979797!important;
+    margin-left: 0.5em;
+    margin-right: 1.5em;
 }
 
 .ui.button {
