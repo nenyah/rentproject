@@ -1,4 +1,5 @@
 
+<!-- 作业完成人：3-39 Lucibriel -->
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,22 +18,22 @@
     <!-- 头部菜单 -->
     <div class="ui text menu top">
         <div class="ui container">
-            <a src="#" class="ui image">
-                <img src="images/logo.png" alt="">
-            </a>
-            <a src="#" class="item">
-                校园租
-            </a>
+            <div class="item">
+                <a href="#" class="ui image">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <a href="#"><span style="font-size: 28px; color: #ffffff;margin-left:0.2em;">校园租</span></a>
+            </div>
 
             <div class="right menu">
-                <a src="#" class="item">
+                <a href="#" class="item" style="font-size: 16px;text-align: left;color: #ffffff;">
                     登录
                 </a>
                 <div class="item">
-                    <button type="button" name="button" class="ui yellow circular button">
-                        <img src="images/key_icon.png" alt="">
-                        注册
-                    </button>
+                    <a href="#" class="ui yellow circular button">
+                        <img class="image key" src="images/key_icon.png" alt="">
+                        <span class="signin">注册</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -41,31 +42,43 @@
     <!-- 搜索条 -->
     <div class="ui text menu search">
         <div class="ui category search item">
-            <div class="ui transparent icon input">
-                <input class="prompt" type="text" placeholder="想去哪个学校附近租房？选择学校名字">
-                <i class="dropdown icon"></i>
+            <div class="ui search selection dropdown">
+                <input class="prompt" name="university" type="hidden">
+                <i style="font-size: 45px; color: #d8d8d8; padding-right: 18px;"class="dropdown icon"></i>
+                <div class="default text">
+                    想去哪个学校附近租房？选择学校名字
+                </div>
+                <div class="menu">
+                    <div class="item">清华大学</div>
+                </div>
             </div>
-            <div class="ui olive button">
+            <div class="ui button">
                 <span style="font-size:20px;">搜索</span>
             </div>
         </div>
     </div>
+    <!-- 内容背景 -->
+    <div class="ui basic vertical segment bg">
+        <div class="ui image">
+            <img src="images/photo_bg.png" alt="">
+        </div>
+    </div>
     <!-- 中间内容 -->
-    <div class="ui vertical segment content">
-        <div class="ui container">
+    <div class="ui vertical basic segment content">
+        <div class="ui container content">
             <h1>精选优质房源</h1>
             <div class="ui three column grid">
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img1.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">人民大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                         <div class="ui top right attached yellow label">
                             温馨两居
                         </div>
@@ -74,15 +87,15 @@
                 </div>
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img2.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">清华大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                         <div class="ui top right attached yellow label">
                             朝南
                         </div>
@@ -91,15 +104,15 @@
                 </div>
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img3.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">北京大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                         <div class="ui top right attached yellow label">
                             舒适一居
                         </div>
@@ -111,49 +124,50 @@
             <div class="ui three column grid">
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img4.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">北京大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                       </div>
                     </div>
                 </div>
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img5.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">北京大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                       </div>
                     </div>
                 </div>
                 <div class="column">
                     <div class="ui card">
-                      <div class="image">
+                      <a href="#" class="image">
                         <img src="images/img6.png">
-                      </div>
+                      </a>
                       <div class="content">
                         <a class="header">北京大学附近房源</a>
                         <div class="ui divider"></div>
-                        <div class="description">
+                        <a href="#" class="description">
                           宇宙中心五道口附近，方便出行，购物，适合陪读、考研、校外住宿。
-                        </div>
+                        </a>
                       </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- 底部内容 -->
     <div class="ui vertical very padded container">
         <div class="ui grid">
@@ -163,17 +177,17 @@
                         <h3 class="ui header">关于我们</h3>
                     </div>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         常见问题
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         联系我们
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         加入我们
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -183,21 +197,21 @@
                         <h3 class="ui header">热门房源</h3>
                     </div>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         北京大学
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         清华大学
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         人民大学
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         北京邮电
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -207,21 +221,21 @@
                         <h3 class="ui header">关注我们</h3>
                     </div>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         关注微博
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         关注微信
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         关注头条号
-                    </div>
+                    </a>
 
-                    <div class="item">
+                    <a href="#" class="item">
                         关注知乎
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -232,16 +246,18 @@
                     </div>
 
                     <div class="item">
-                        <p>欢迎写邮件向我们反馈</p>
-                        <p>邮箱地址：</p>
-                        <p>hi@mugglecoding.com</p>
+                        <p>欢迎写邮件向我们反馈<br/>
+                        邮箱地址：<br/>
+                        hi@mugglecoding.com</p>
                     </div>
                 </div>
             </div>
-            <div class="ui divider"></div>
-            <div>Developed By Mugglecoding team 3-39</div>
+
 
         </div>
+        <div class="ui divider"></div>
+        <p>Developed By Mugglecoding team 3-39
+        <span style="float:right">京ICP备15047012号-2</span></p>
     </div>
 
 
